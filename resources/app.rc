@@ -1,0 +1,28 @@
+#include <windows.h>
+1 RT_MANIFEST "app.manifest"
+101 ICON "windowpin.ico"
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Kuanfu Weimu\0"
+      VALUE "FileDescription", "WindowPin\0"
+      VALUE "FileVersion", "1.0.0\0"
+      VALUE "InternalName", "WindowPin\0"
+      VALUE "LegalCopyright", "Copyright (c) 2026 Kuanfu Weimu. MIT License.\0"
+      VALUE "OriginalFilename", "WindowPin.exe\0"
+      VALUE "ProductName", "WindowPin\0"
+      VALUE "ProductVersion", "1.0.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END

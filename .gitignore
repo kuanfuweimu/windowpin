@@ -1,0 +1,8 @@
+/build/
+/dist/
+/.vs/
+*.ini
+*.pdb
+*.ilk
+*.obj
+*.log
